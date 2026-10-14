@@ -53,7 +53,7 @@ public class Act_Stream {
 
 
 
- public static void leer() {
+    public static void leer() {
         try (FileInputStream fis = new FileInputStream("data.txt");
              BufferedInputStream bis = new BufferedInputStream(fis)) {
 
@@ -96,4 +96,3 @@ public class Act_Stream {
 //    public static String leerNotas() {
 //        return "notas";
 //    }
-
